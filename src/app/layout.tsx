@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s | Doni Pebruwantoro",
   },
   description: "The personal portfolio of Doni Pebruwantoro, a full-stack software engineer specializing in backend development and creating robust, scalable SaaS-based architectures.",
-  keywords: ["Doni Pebruwantoro", "Doni", "Perbuwantoro", "software engineer", "backend developer", "full-stack", "SaaS", "Go", "JavaScript", "NodeJS", "Python", "SwiftUI", "ReactJS"],
+  keywords: ["Doni Pebruwantoro", "Doni", "Pebruwantoro", "software engineer", "backend developer", "full-stack", "SaaS", "Go", "JavaScript", "NodeJS", "Python", "SwiftUI", "ReactJS"],
   alternates: {
     canonical: "https://pebruwantoro.com",
   },
