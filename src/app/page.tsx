@@ -17,9 +17,6 @@ export default function Home() {
           </p>
         </div>
         <div className="flex justify-center gap-4">
-          <a href="https://www.linkedin.com/in/doni-pebruwantoro/" target="_blank" rel="noopener noreferrer" className="border border-primary text-primary font-bold py-3 px-6 rounded-full hover:bg-primary hover:text transition-colors">
-            Get in Touch
-          </a>
           <a href="https://drive.google.com/file/d/1VPWeT3nZvX_m_Mm_TtURA3jONi1M0Kgm/view?usp=sharing" className="border border-primary text-primary font-bold py-3 px-6 rounded-full hover:bg-primary hover:text transition-colors">
             Download CV
           </a>
@@ -32,42 +29,57 @@ export default function Home() {
         <div className="flex flex-wrap justify-center gap-8">
           {/* Golang Icon */}
           <div className="flex flex-col items-center">
-            <Image src="/go-icon.svg" alt="Golang Icon" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2"/>
+            <div className="w-16 h-16 rounded-full shadow-md bg-go p-2 flex items-center justify-center">
+              <Image src="/go-icon.svg" alt="Golang Icon" width={64} height={64} className="invert brightness-0" />
+            </div>
             <p className="mt-2 text-sm font-medium">Golang</p>
           </div>
 
           {/* JavaScript Icon */}
           <div className="flex flex-col items-center">
-            <Image src="/javascript-icon.svg" alt="JavaScript Icon" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+            <div className="w-16 h-16 rounded-full shadow-md bg-js p-2 flex items-center justify-center">
+              <Image src="/javascript-icon.svg" alt="JavaScript Icon" width={44} height={44} className="invert brightness-0" />
+            </div>
             <p className="mt-2 text-sm font-medium">JavaScript</p>
           </div>
 
           {/* Node.js Icon */}
           <div className="flex flex-col items-center">
-            <Image src="/node-icon.svg" alt="Node.js Icon" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+            <div className="w-16 h-16 rounded-full shadow-md bg-nodejs p-2 flex items-center justify-center">
+              <Image src="/node-icon.svg" alt="Node.js Icon" width={64} height={64} className="invert brightness-0" />
+            </div>
             <p className="mt-2 text-sm font-medium">Node.js</p>
           </div>
 
           {/* Python Icon */}
           <div className="flex flex-col items-center">
-            <Image src="/python-icon.svg" alt="Python Icon" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+            <div className="w-16 h-16 rounded-full shadow-md bg-python p-2 flex items-center justify-center">
+              <Image src="/python-icon.svg" alt="Python Icon" width={64} height={64} className="invert brightness-0" />
+            </div>
             <p className="mt-2 text-sm font-medium">Python</p>
           </div>
 
           {/* SwiftUI Icon */}
           <div className="flex flex-col items-center">
-            <Image src="/swift-icon.svg" alt="SwiftUI Icon" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+            <div className="w-16 h-16 rounded-full shadow-md bg-swift p-2 flex items-center justify-center">
+              <Image src="/swift-icon.svg" alt="SwiftUI Icon" width={44} height={44} className="invert brightness-0" />
+            </div>
             <p className="mt-2 text-sm font-medium">SwiftUI</p>
           </div>
 
           {/* React Icon */}
           <div className="flex flex-col items-center">
-            <Image src="/react-icon.svg" alt="React Icon" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+            <div className="w-16 h-16 rounded-full shadow-md bg-react p-2 flex items-center justify-center">
+              <Image src="/react-icon.svg" alt="React Icon" width={64} height={64} className="invert brightness-0" />
+            </div>
             <p className="mt-2 text-sm font-medium">React</p>
           </div>
+
           {/* PHP Icon */}
           <div className="flex flex-col items-center">
-            <Image src="/php-icon.svg" alt="PHP Icon" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+            <div className="w-16 h-16 rounded-full shadow-md bg-php p-2 flex items-center justify-center">
+              <Image src="/php-icon.svg" alt="PHP Icon" width={64} height={64} className="invert brightness-0" />
+            </div>
             <p className="mt-2 text-sm font-medium">PHP</p>
           </div>
         </div>
@@ -127,30 +139,32 @@ export default function Home() {
           {/* Email Icon */}
           <a href="mailto:pebruwantoro.doni@gmail.com" className="flex flex-col items-center hover:opacity-75 transition-opacity">
             <div className="flex flex-col items-center">
-              <Image src="/mail-icon.svg" alt="Email" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+              <div className="w-10 h-10 rounded-full shadow-md bg-mail p-2 flex items-center justify-center">
+                <Image src="/mail-icon.svg" alt="Node.js Icon" width={44} height={44} className="invert brightness-0" />
+              </div>
             </div>
-            <p className="mt-2 text-sm font-medium ">Email</p>
           </a>
           {/* LinkedIn Icon */}
           <a href="https://www.linkedin.com/in/doni-pebruwantoro/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:opacity-75 transition-opacity">
             <div className="flex flex-col items-center">
-              <Image src="/linkedin-icon.svg" alt="LinkedIn" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+              <div className="w-10 h-10 rounded-full shadow-md bg-linkedin p-2 flex items-center justify-center">
+                <Image src="/linkedin-icon.svg" alt="LinkedIn" width={44} height={44} className="invert brightness-0" />
+              </div>
             </div>
-            <p className="mt-2 text-sm font-medium">LinkedIn</p>
           </a>
           {/* GitHub Icon */}
           <a href="https://github.com/pebruwantoro" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:opacity-75 transition-opacity">
             <div className="flex flex-col items-center">
-              <Image src="/github-icon.svg" alt="GitHub" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+              <div className="w-10 h-10 rounded-full shadow-md bg-github p-2 flex items-center justify-center">
+                <Image src="/github-icon.svg" alt="GitHub" width={44} height={44} className="invert brightness-0" />
+              </div>
             </div>
-            <p className="mt-2 text-sm font-medium">GitHub</p>
           </a>
           {/* Medium Icon */}
           <a href="https://medium.com/@pebruwantoro.doni" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:opacity-75 transition-opacity">
-            <div className="flex flex-col items-center">
-              <Image src="/medium-icon.svg" alt="Medium" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
-            </div>
-            <p className="mt-2 text-sm font-medium">Medium</p>
+            <div className="w-10 h-10 rounded-full shadow-md bg-medium p-2 flex items-center justify-center">
+                <Image src="/medium-icon.svg" alt="GitHub" width={44} height={44} className="invert brightness-0" />
+              </div>
           </a>
         </div>
       </section>
