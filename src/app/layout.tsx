@@ -14,8 +14,37 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pebruwantoro",
-  description: "The personal portfolio of Doni Pebruwantoro, a Software Engineer.",
+  icons: "/icon.png",
+  title: {
+    default: "Doni Pebruwantoro - Software Engineer",
+    template: "%s | Doni Pebruwantoro",
+  },
+  description: "The personal portfolio of Doni Pebruwantoro, a full-stack software engineer specializing in backend development and creating robust, scalable SaaS-based architectures.",
+  keywords: ["Doni Pebruwantoro", "Doni", "Perbuwantoro", "software engineer", "backend developer", "full-stack", "SaaS", "Go", "JavaScript", "NodeJS", "Python", "SwiftUI", "ReactJS"],
+  alternates: {
+    canonical: "https://pebruwantoro.com",
+  },
+  openGraph: {
+    title: "Doni Pebruwantoro - Software Engineer",
+    description: "The personal portfolio of Doni Pebruwantoro, a full-stack software engineer specializing in backend development and creating robust, scalable SaaS-based architectures.",
+    url: "https://pebruwantoro.com",
+    siteName: "Doni Pebruwantoro's Portfolio",
+    images: [
+      {
+        url: "public/profile.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Doni Pebruwantoro - Software Engineer",
+    description: "The personal portfolio of Doni Pebruwantoro, a full-stack software engineer specializing in backend development and creating robust, scalable SaaS-based architectures.",
+    images: ["public/profile.png"], 
+  },
 };
 
 export default function RootLayout({
