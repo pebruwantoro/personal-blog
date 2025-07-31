@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://pebruwantoro.com'),
   icons: "/icon.png",
   title: {
     default: "Doni Pebruwantoro - Software Engineer",
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
     siteName: "Doni Pebruwantoro's Portfolio",
     images: [
       {
-        url: "public/profile.png",
+        url: "/profile.png",
         width: 1200,
         height: 630,
       },
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Doni Pebruwantoro - Software Engineer",
     description: "The personal portfolio of Doni Pebruwantoro, a full-stack software engineer specializing in backend development and creating robust, scalable SaaS-based architectures.",
-    images: ["public/profile.png"], 
+    images: ["/profile.png"], 
   },
 };
 
