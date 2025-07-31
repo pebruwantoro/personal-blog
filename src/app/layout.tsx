@@ -33,14 +33,14 @@ export default function RootLayout({
             <Link href="/" className="section-title text-2xl font-bold text-primary">
               Doni Pebruwantoro
             </Link>
-            <div className="space-x-8">
+            {/* <div className="space-x-8">
               <Link href="/" className="hover:text-primary transition-colors">
                 Home
               </Link>
               <Link href="/projects" className="hover:text-primary transition-colors">
                 Projects
               </Link>
-            </div>
+            </div> */}
           </div>
         </nav>
         <main>{children}</main>
