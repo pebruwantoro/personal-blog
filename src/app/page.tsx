@@ -32,33 +32,43 @@ export default function Home() {
         <div className="flex flex-wrap justify-center gap-8">
           {/* Golang Icon */}
           <div className="flex flex-col items-center">
-            <img src="https://placehold.co/80x80/00ADD8/FFFFFF?text=Go" alt="Golang Icon" className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+            <Image src="/go-icon.svg" alt="Golang Icon" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2"/>
             <p className="mt-2 text-sm font-medium">Golang</p>
           </div>
+
           {/* JavaScript Icon */}
           <div className="flex flex-col items-center">
-            <img src="https://placehold.co/80x80/323330/F7DF1E?text=JS" alt="JavaScript Icon" className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+            <Image src="/javascript-icon.svg" alt="JavaScript Icon" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
             <p className="mt-2 text-sm font-medium">JavaScript</p>
           </div>
+
           {/* Node.js Icon */}
           <div className="flex flex-col items-center">
-            <img src="https://placehold.co/80x80/333333/68A063?text=Node" alt="Node.js Icon" className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+            <Image src="/node-icon.svg" alt="Node.js Icon" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
             <p className="mt-2 text-sm font-medium">Node.js</p>
           </div>
+
           {/* Python Icon */}
           <div className="flex flex-col items-center">
-            <img src="https://placehold.co/80x80/3776AB/FFD43B?text=Py" alt="Python Icon" className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+            <Image src="/python-icon.svg" alt="Python Icon" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
             <p className="mt-2 text-sm font-medium">Python</p>
           </div>
+
           {/* SwiftUI Icon */}
           <div className="flex flex-col items-center">
-            <img src="https://placehold.co/80x80/F05138/FFFFFF?text=SwiftUI" alt="SwiftUI Icon" className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+            <Image src="/swift-icon.svg" alt="SwiftUI Icon" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
             <p className="mt-2 text-sm font-medium">SwiftUI</p>
           </div>
+
           {/* React Icon */}
           <div className="flex flex-col items-center">
-            <img src="https://placehold.co/80x80/61DAFB/20232A?text=React" alt="React Icon" className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+            <Image src="/react-icon.svg" alt="React Icon" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
             <p className="mt-2 text-sm font-medium">React</p>
+          </div>
+          {/* PHP Icon */}
+          <div className="flex flex-col items-center">
+            <Image src="/php-icon.svg" alt="PHP Icon" width={64} height={64} className="w-16 h-16 rounded-full shadow-md bg-gray-700 p-2" />
+            <p className="mt-2 text-sm font-medium">PHP</p>
           </div>
         </div>
       </section>
