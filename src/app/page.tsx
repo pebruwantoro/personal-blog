@@ -17,7 +17,7 @@ export default function Home() {
           </p>
         </div>
         <div className="flex justify-center gap-4">
-          <a href="https://drive.google.com/file/d/1VPWeT3nZvX_m_Mm_TtURA3jONi1M0Kgm/view?usp=sharing" className="border border-primary text-primary font-bold py-3 px-6 rounded-full hover:bg-primary hover:text transition-colors">
+          <a href="https://drive.google.com/file/d/1VPWeT3nZvX_m_Mm_TtURA3jONi1M0Kgm" className="border border-primary text-primary font-bold py-3 px-6 rounded-full hover:bg-primary hover:text transition-colors">
             Download CV
           </a>
         </div>
